@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Home Page</title>
+
+<link rel="stylesheet"href="hw.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<br>
+
+    <div class="topnavbar">
+        <a href="hwHOME.html"><i class="fa fa-fw fa-home"></i> Home  |  </a> 
+        <a href="hwEducation.html"><i class="fa fa-fw fa-graduation-cap"></i> Education   |  </a> 
+        <a href="hwactivities.html"><i class="fa fa-fw fa-street-view"></i> Skills & Activities  |  </a> 
+        <a class="active" href="contact.html"><i class="fa fa-fw fa-phone"></i> Contact Me</a> 
+      </div>
+    
+     <div class="formbox">
+
+        <h3 class="mid">Get In Touch!</h3>
+        <form action="mailto:mofiras206@gmail.com?" method="post" enctype="text/plain" onsubmit="location.href='emailsent.html'">
+
+            <label for="name">Name </label>
+           <input class="inputfield" type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+        
+            <label for="Email" class="fcf-label">Your email address</label>
+            <input class="inputfield" type="email" id="Email" name="Email" placeholder="Enter your email"><br><br>
+            
+            <label for="Message"> Message </label><br>
+            <textarea class="inputfield" id="Message" name="Message" placeholder="Enter the message" ></textarea><br><br>
+            <input id="btn" type="submit" value="Send">
+        
+          </form>
+        </div>
+
+
+
+</body>
+<footer><p> © Mohamed Firas</p></footer>
+</html>      
